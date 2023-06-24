@@ -1,0 +1,112 @@
+header{
+    background-image: linear-gradient(rgba(241, 130, 130, 0.5),rgba(195, 53, 53, 0.5)), url(../360_F_120282530_gMCruc8XX2mwf5YtODLV2O1TGHzu4CAb.jpg); 
+    
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    
+    position: relative;
+}
+header h1{
+    font-size: 75px;
+    text-align: center;
+    padding-top: 250px;
+}
+header h3{
+    text-align: center;
+}
+.menu{
+    color: #414658;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    left: -20%;
+     transition: all .5s linear; 
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    color: white !important;
+    margin: 40px 0px 30px 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: darkred !important;
+}
+
+.icon{
+    cursor: pointer;
+    left: 0px;
+   position: absolute;
+   transition: all .5s linear;
+} 
+.close{
+    cursor: pointer;
+}
+.singer .row{
+    margin:100px;
+}
+.singer .row h3{
+    background-color: #E68285;
+    cursor: pointer;   
+}
+.singer .row  h3:hover{
+   background-color: #dc7578;
+}
+
+.paragraph{
+    background-color: #CCCCCC;
+    display: none;
+    margin-bottom: 0;
+    padding: 10px;
+    line-height: 30px;
+}
+.time{
+    margin: 100px 0;
+    
+    background-image: linear-gradient(rgba(241, 130, 130, 0.5),rgba(195, 53, 53, 0.5)), url(../invitation-2508607__340.jpg); 
+    
+    background-position: center;
+    background-size: cover;
+
+}
+.input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 8px;
+    border-radius: 2px;
+
+}
+
+.last p{
+    color:#777777;
+    line-height: 30px;
+}
+
+
+.time1{
+    height: 200px;
+}
+.time1 span{
+    font-size: 30px;
+    color: white;
+}
+
+/* media query */
+@media (max-width:700px){
+    header h1{
+        font-size: 35px;
+    }
+    .menu a{
+        margin: 80px 3px 30px ;
+        font-size: 14px;
+    }
+    .close{
+        font-size: 10px;
+    }
+    .singer .row{
+margin: 100px 0;
+    }
+}
